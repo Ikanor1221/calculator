@@ -4,40 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculator</title>
 </head>
 <body>
     
     <div class="content">
-        <div class="screen">
-            <div class="top" id="screnResult"></div>
-            <div class="bottom" id="screenInput"></div>
-        </div>
-        <div class="buttonsTop">
-            <button class="btn" id="clearBtn">Clear</button>
-            <button class="btn" id="deleteBtn">Delete</button>
-        </div>
-        <div class="buttonsBottom">
-            <button class="btn" id="btn7">7</button>
-            <button class="btn" id="btn8">8</button>
-            <button class="btn" id="btn9">9</button>
-            <button class="btn" id="btnDevide">/</button>
-            <button class="btn" id="btn4">4</button>
-            <button class="btn" id="btn5">5</button>
-            <button class="btn" id="btn6">6</button>
-            <button class="btn" id="btnMultipy">*</button>
-            <button class="btn" id="btn1">1</button>
-            <button class="btn" id="btn2">2</button>
-            <button class="btn" id="btn3">3</button>
-            <button class="btn" id="btnSubtract">-</button>
-            <button class="btn" id="btnDot">.</button>
-            <button class="btn" id="btn0">0</button>
-            <button class="btn" id="btnEqual">=</button>
-            <button class="btn" id="btnAdd">+</button>
+        <div class="calculator">
+            <div class="screenRow">
+                <div class="top" id="screnResult">result</div>
+                <div class="bottom" id="screenInput">input</div>
+            </div>
+            <div class="buttonsRow">
+                <div class="row">
+                    <button class="btnLarge" id="clearBtn">Clear</button>
+                    <button class="btnLarge" id="deleteBtn">Delete</button>
+                </div>
+                <div class="row">
+                    <button class="btn" id="btn7">7</button>
+                    <button class="btn" id="btn8">8</button>
+                    <button class="btn" id="btn9">9</button>
+                    <button class="btn" id="btnDevide">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn" id="btn4">4</button>
+                    <button class="btn" id="btn5">5</button>
+                    <button class="btn" id="btn6">6</button>
+                    <button class="btn" id="btnMultipy">*</button>
+                </div>
+                <div class="row">
+                    <button class="btn" id="btn1">1</button>
+                    <button class="btn" id="btn2">2</button>
+                    <button class="btn" id="btn3">3</button>
+                    <button class="btn" id="btnSubtract">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" id="btnDot">.</button>
+                    <button class="btn" id="btn0">0</button>
+                    <button class="btn" id="btnEqual">=</button>
+                    <button class="btn" id="btnAdd">+</button>
+            </div>
+            </div>
         </div>
     </div>
+    <div class="footer">Hello!</div>
 
-    <script src="/javascript.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
