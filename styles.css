@@ -68,6 +68,7 @@ body {
     gap: 10px;
     background-color: var(--calculator);
     border-radius: 20px;
+    /* max-width: 100%; */
 }
 
 .screenRow {
@@ -76,7 +77,8 @@ body {
     align-items: flex-end;
     justify-content: center;
     width: 100%;
-    height: 120px;
+    min-height: 120px;
+    padding: 10px;
     border: solid;
     background-color: var(--screen);
     border-radius: 10px;
@@ -85,19 +87,24 @@ body {
 
 .screenRow div {
     /* border: solid; */
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     margin-right: 10px;
+    max-width: 400px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .screenRow .top {
+    min-height: 30px;
     font-size: 25px;
     font-weight: 100;
 }
 
 .screenRow .bottom {
+    min-height: 55px;
     font-size: 50px;
     font-weight: 500;
 }
